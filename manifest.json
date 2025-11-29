@@ -21,7 +21,7 @@
     "matches": [
       "https://login.ssasur.cl/*",
       "http://10.6.84.181/*",
-      "https://*.google.com/*",
+      "https://www.google.com/*",
       "https://synapsetmc.synapsetimed.cl/*"
     ],
     "js": ["content.js"],
