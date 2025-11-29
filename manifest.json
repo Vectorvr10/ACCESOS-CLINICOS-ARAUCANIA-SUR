@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "ACCESOS CLÍNICOS ARAUCANIA SUR",
+  "version": "2.1",
+  "description": "Medicina UFRO estuvo aquí",
+  
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png", 
+    "128": "icon128.png"
+  },
+  
+  "web_accessible_resources": [{
+    "resources": ["images/*"],
+    "matches": ["<all_urls>"]
+  }],
+  
+  "permissions": ["activeTab"],
+  
+  "content_scripts": [{
+    "matches": [
+      "https://login.ssasur.cl/*",
+      "http://10.6.84.181/*",
+      "https://*.google.com/*",
+      "https://synapsetmc.synapsetimed.cl/*"
+    ],
+    "js": ["content.js"],
+    "css": ["styles.css"],
+    "run_at": "document_end"
+  }]
+}
