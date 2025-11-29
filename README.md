@@ -11,11 +11,10 @@ Una herramienta de Accesos Clínicos para el Servicio de Araucanía Sur. Proporc
 
 ### 👥 CONTACTO Y SOPORTE TÉCNICO
 
-Mail: vectorvr10@gmail.com
-
-Última actualización: 29 de noviembre de 2025
+- Mail: vectorvr10@gmail.com
 
 ### ℹ️ POLÍTICA DE PRIVACIDAD
+Última actualización: 29 de noviembre de 2025
 
 1. Recopilación de datos
 La extensión "ACCESOS CLÍNICOS ARAUCANIA SUR" (desarrollada por Medicina UFRO) no recopila, almacena, ni transmite ningún dato personal, información de salud, ni credenciales de usuario.
