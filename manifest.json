@@ -15,8 +15,6 @@
     "matches": ["<all_urls>"]
   }],
   
-  "permissions": ["activeTab"],
-  
   "content_scripts": [{
     "matches": [
       "https://login.ssasur.cl/*",
