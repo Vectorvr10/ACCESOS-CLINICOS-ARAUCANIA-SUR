@@ -57,6 +57,12 @@
   box-shadow: 0 8px 25px var(--shadow);
 }
 
+.floating-panel-btn-hhha img {
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
 /* Panel lateral */
 .custom-sidebar-hhha {
   position: fixed;
