@@ -22,7 +22,7 @@ const menuStructure = [
   { icon: '🔬', iconKey: 'pathient', text: 'Pathient', url: 'http://10.6.84.155/Pathient/' },
   { icon: '🎗️', iconKey: 'onco', text: 'Cómite Oncológico', url: 'https://sistemas.hhha.cl/#/login' },
   { icon: '🩸', iconKey: 'sangre', text: 'Banco de Sangre', url: 'http://10.6.84.191/proyectos/consultaBancoSangre/' },
-  { icon: '📚', iconKey: 'hospital', text: 'Internado HHHA', url: 'https://inthhha.github.io/inicio/' },
+  { icon: '📚', iconKey: 'hospital', text: 'Internado HHHA', url: 'https://inthhha.pages.dev/' },
   { 
     icon: '⚙️', iconKey: 'otros', text: 'Otros HHHA', 
     submenu: [
@@ -61,11 +61,11 @@ const menuStructure = [
     submenu: [
       { icon: '📖', iconKey: 'farmaco', text: 'Vademecum', url: 'https://www.iqb.es/cbasicas/farma/farma04/indicea.htm' },
       { icon: '🤰', iconKey: 'embarazo', text: 'Fármacos en Embarazo', url: 'https://www.araucaniasur.cl/wp-content/uploads/2023/01/GUIA-8-MEDICAMENTOS-EN-EMBARAZO-OK.pdf' },
-      { icon: '🦠', iconKey: 'medicamento', text: 'Espectro ATB', url: 'https://inthhha.github.io/inicio/files/ATB-EV.pdf' },
-      { icon: '🦠', iconKey: 'bacteria', text: 'Susceptibilidad ATB', url: 'https://inthhha.github.io/inicio/files/Espectros-ATB-2022.pdf' }
+      { icon: '🦠', iconKey: 'medicamento', text: 'Espectro ATB', url: 'https://inthhha.pages.dev/files/ATB-EV.pdf' },
+      { icon: '🦠', iconKey: 'bacteria', text: 'Susceptibilidad ATB', url: 'https://inthhha.pages.dev/files/Espectros-ATB-2022.pdf' }
     ]
   },
-  { icon: '📱', iconKey: 'phone', text: 'Anexos', url: 'https://inthhha.github.io/inicio/anexos.html' }
+  { icon: '📱', iconKey: 'phone', text: 'Anexos', url: 'https://inthhha.pages.dev/anexos' }
 ];
 
 // Funciones auxiliares
@@ -126,7 +126,7 @@ function createFloatingPanel() {
     <div class="sidebar-footer-hhha">
       <div class="credits-text-hhha">
         <img src="${chrome.runtime.getURL('images/medufro.png')}" alt="UFRO" class="ufro-small-logo">
-        Hecho por Medicina UFRO. Versión 2.1.2
+        Hecho por Medicina UFRO. Versión 2.1.3
       </div>
     </div>
   `;
