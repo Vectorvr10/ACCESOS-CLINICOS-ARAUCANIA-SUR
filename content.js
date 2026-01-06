@@ -16,7 +16,7 @@ const menuStructure = [
   { icon: '🏥', iconKey: 'hhha', text: 'HIS HHHA', url: 'http://10.6.84.181/login' },
   { icon: '🔐', iconKey: 'ssasur', text: 'SSASUR', url: 'https://login.ssasur.cl/' },
   { icon: '🧪', iconKey: 'lab', text: 'Laboratorio Clínico', url: 'https://labsiel.araucaniasur.cl/' },
-  { icon: '📄', iconKey: 'test', text: 'Extractor de Exámenes', url: 'https://notionmedufro.github.io/ExtractorHIS/' },
+  { icon: '📄', iconKey: 'test', text: 'Extractor de Exámenes', url: 'https://inthhha.pages.dev/extractorHIS/' },
   { icon: '💻', iconKey: 'synapse', text: 'Synapse', url: 'https://synapsetmc.synapsetimed.cl/SynapseSignOn/sts/login?signin=14a58d1722d1162a247c17de113ea731' },
   { icon: '📷', iconKey: 'ray', text: 'Ovijam', url: 'http://10.7.200.101:8080/oviyam2/' },
   { icon: '🔬', iconKey: 'pathient', text: 'Pathient', url: 'http://10.6.84.155/Pathient/' },
@@ -126,7 +126,7 @@ function createFloatingPanel() {
     <div class="sidebar-footer-hhha">
       <div class="credits-text-hhha">
         <img src="${chrome.runtime.getURL('images/medufro.png')}" alt="UFRO" class="ufro-small-logo">
-        Hecho por Medicina UFRO. Versión 2.1.3
+        Hecho por Medicina UFRO. Versión 2.1.4
       </div>
     </div>
   `;
